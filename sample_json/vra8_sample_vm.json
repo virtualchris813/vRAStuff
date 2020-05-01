@@ -1,0 +1,65 @@
+{
+  "__metadata_userName": "configadmin",
+  "__metadata_hdr_uberctx-org-id": "0c6c42af-ed0a-410e-a67b-a3b42c55fc0d",
+  "__metadata_hdr_blocking": "false",
+  "__metadata_correlationType": "contextId",
+  "__metadata_hdr_sampling-decision": "true",
+  "__metadata_hdr_tokenId": "3RxY47rRuhIBl6rJetI7hgS7vYEEdvgaa/gMmXmOSRY=",
+  "__metadata_hdr_eventTraceEntryId": "6546c6c9-bb71-4937-a3e8-b949d611a8fa",
+  "__metadata_hdr_uberctx-parent-id": "82538e2d-f758-4369-b3b0-a1e5e3c290be",
+  "__metadata_orgId": "0c6c42af-ed0a-410e-a67b-a3b42c55fc0d",
+  "__metadata_description": null,
+  "__metadata_targetType": "ComputeProvisionTaskState",
+  "__metadata_eventTopicId": "compute.provision.post",
+  "__metadata_sourceIdentity": "98243ff1-b9fc-4527-89d4-ec6ce27ee672",
+  "__metadata_targetId": "33b9a63d-a55f-47ad-b71a-0cc6628acccc",
+  "__metadata_sourceType": "provisioning",
+  "__metadata_eventType": "EVENT",
+  "inputProperties": {
+    "addresses": [
+      [
+        "192.168.99.67"
+      ]
+    ],
+    "componentId": "Cloud_vSphere_Machine_1",
+    "endpointId": "c6ec580a-356f-4319-8075-3d554cd83a91",
+    "externalIds": [
+      "50010359-3768-7532-628d-5c4f4e87e5e1"
+    ],
+    "blueprintId": "5a9453fa-1b6b-46e0-8f5a-93944c015f94",
+    "tags": {},
+    "resourceNames": [
+      "configadmin-117"
+    ],
+    "customProperties": {
+      "provisionGB": "75",
+      "customizationSpec": "WindowsSpec",
+      "softwareName": "Microsoft Windows Server 2016 or later (64-bit)",
+      "os": "windows",
+      "osType": "WINDOWS",
+      "imageRef": "WINDOWS-2019-TEMPLATE",
+      "datastoreName": "vsanDatastore",
+      "vcUuid": "2c0343e5-0f7f-41d0-bf46-c20e4751f866"
+    },
+    "componentTypeId": "Cloud.vSphere.Machine",
+    "requestId": "0ddc427e-be72-45a4-9238-5eb9401bfb44",
+    "deploymentId": "48481853-3762-4801-8d07-e367b5877660",
+    "zoneId": "43c01217-eb23-4115-bc03-2577385312ce",
+    "projectId": "d5d69896-6e76-4fd5-964d-6dc7b1f3f19f",
+    "resourceIds": [
+      "d0a59ee9-9bd7-4233-b5d5-a28fd8999dfa"
+    ],
+    "subnetIds": [
+      [
+        "99296d85-7f08-472f-99c5-37e64a323ccc"
+      ]
+    ]
+  },
+  "__metadata_hdr_provisioning-callback-uri": "/provisioning/config/extensibility-callbacks/f260a0c9-2553-4d73-aa51-f32b0de89f00",
+  "__metadata_hdr_uberctx-user-id": "provisioning-nBOR7breZP4rqiEd",
+  "__metadata_id": "56af1a5a-4ab0-38ba-91ca-7bbfcbf6680c",
+  "__metadata_hdr_runnableId": "11e2e9c5-839e-4e6e-b2ec-8c74d00e5534",
+  "__metadata_hdr_uber-trace-id": "e5492b06a7324f23b5ec34088bf08a48:86baf3a8ba74620826d6cea31bd0ff8:82538e2d-f758-4369-b3b0-a1e5e3c290be:1",
+  "__metadata_hdr_runnableType": "extensibility.vro",
+  "__metadata_correlationId": "48481853-3762-4801-8d07-e367b5877660--0ddc427e-be72-45a4-9238-5eb9401bfb44"
+}
